@@ -1,15 +1,16 @@
 # 🦊 What is Libft?
 
-Libft is the first project of 42 Cursus.
+Libft is the foundational project in the 42 Cursus.
 
-The aim of this project is to code a **C** library regrouping usual functions that you'll be allowed to use in all your other projects.
+The objective of this project is to create your own **C** library by implementing a collection of basic and essential functions. \
+It will help you understand the basic of C and the Norminette.
 
 # ⚒️ Compilation
 
 1. Run `make` to compile the library.
-Run `make re` to recompile everything.
+2. Run `make re` to recompile everything.
 
-2. You can include it to any other library in your projects.
+After compiling, you can include this library in any of your future projects.
 
 # 🧼 Cleaning
 
@@ -32,7 +33,7 @@ Run `make re` to recompile everything.
 
 ## Functions from `<string.h>`
 
-- [x] [`ft_bzero`](https://github.com/flmarsou/1-Libft/blob/main/ft_bzero.c) - Replaces bytes with `\0`.
+- [x] [`ft_bzero`](https://github.com/flmarsou/1-Libft/blob/main/ft_bzero.c) - Replaces bytes with NULL.
 - [x] [`ft_memchr`](https://github.com/flmarsou/1-Libft/blob/main/ft_memchr.c) - Scans a byte in a pointer.
 - [x] [`ft_memcmp`](https://github.com/flmarsou/1-Libft/blob/main/ft_memcmp.c) - Compares two pointers.
 - [x] [`ft_memcpy`](https://github.com/flmarsou/1-Libft/blob/main/ft_memcpy.c) - Copies two pointers.
@@ -42,7 +43,7 @@ Run `make re` to recompile everything.
 - [x] [`ft_strdup`](https://github.com/flmarsou/1-Libft/blob/main/ft_strdup.c) - Duplicates and allocates a string.
 - [x] [`ft_strlcat`](https://github.com/flmarsou/1-Libft/blob/main/ft_strlcat.c) - Concatenates two strings with a specified length.
 - [x] [`ft_strlcpy`](https://github.com/flmarsou/1-Libft/blob/main/ft_strlcpy.c) - Copies a string with a specified length.
-- [x] [`ft_strlen`](https://github.com/flmarsou/1-Libft/blob/main/ft_strlen.c) - Calculates the length of a string.
+- [x] [`ft_strlen`](https://github.com/flmarsou/1-Libft/blob/main/ft_strlen.c) - Returns the length of a string.
 - [x] [`ft_strncmp`](https://github.com/flmarsou/1-Libft/blob/main/ft_strncmp.c) - Compares two strings with a specified length.
 - [x] [`ft_strnstr`](https://github.com/flmarsou/1-Libft/blob/main/ft_strnstr.c) - Scans a substring in a string.
 - [x] [`ft_strrchr`](https://github.com/flmarsou/1-Libft/blob/main/ft_strrchr.c) - Scans a character in a string in reverse.
@@ -50,7 +51,7 @@ Run `make re` to recompile everything.
 ## Functions from `<stdlib.h>`
 
 - [x] [`ft_atoi`](https://github.com/flmarsou/1-Libft/blob/main/ft_atoi.c) - String to Integer
-- [x] [`ft_calloc`](https://github.com/flmarsou/1-Libft/blob/main/ft_calloc.c) - Allocates and replaces bytes with `\0`.
+- [x] [`ft_calloc`](https://github.com/flmarsou/1-Libft/blob/main/ft_calloc.c) - Allocates and replaces bytes with NULL.
 - [x] [`ft_itoa`](https://github.com/flmarsou/1-Libft/blob/main/ft_itoa.c) - Integer to String
 
 ## Non-Standard Functions
@@ -75,5 +76,5 @@ Run `make re` to recompile everything.
 - [x] [`ft_lstiter`](https://github.com/flmarsou/1-Libft/blob/main/ft_lstiter.c) - Applies a function to every nodes of a list.
 - [x] [`ft_lstlast`](https://github.com/flmarsou/1-Libft/blob/main/ft_lstlast.c) - Returns the last node of a list.
 - [x] [`ft_lstmap`](https://github.com/flmarsou/1-Libft/blob/main/ft_lstmap.c) - Applies a function to every nodes of a list.
-- [x] [`ft_lstnew`](https://github.com/flmarsou/1-Libft/blob/main/ft_lstnew.c) - Creates a new list.
-- [x] [`ft_lstsize`](https://github.com/flmarsou/1-Libft/blob/main/ft_lstsize.c) - Calculates the size of a list.
+- [x] [`ft_lstnew`](https://github.com/flmarsou/1-Libft/blob/main/ft_lstnew.c) - Creates a new node.
+- [x] [`ft_lstsize`](https://github.com/flmarsou/1-Libft/blob/main/ft_lstsize.c) - Returns the size of a list.
