@@ -1,9 +1,9 @@
 # 🦊 What is Libft?
 
-Libft is the foundational project in the 42 Cursus.
+**Libft** is the foundational project in the 42 Cursus.
 
-The objective of this project is to create your own **C** library by implementing a collection of basic and essential functions. \
-It will help you understand the basic of C and the Norminette.
+The objective of this project is to create your own **C library** by implementing a collection of basic and essential functions. \
+It will help you understand the basic of C, Headers, Makefiles, and Norms.
 
 # ⚒️ Compilation
 
